@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\job image" />
+    <Content Remove="wwwroot\img\Microsoft.webp" />
+    <Content Remove="wwwroot\img\netflix.jpg" />
+    <Content Remove="wwwroot\img\spotify.svg" />
+    <Content Remove="wwwroot\img\Tesla-1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\styles.css" />
+    <None Include="wwwroot\img\job image" />
+    <None Include="wwwroot\img\Microsoft.webp" />
+    <None Include="wwwroot\img\netflix.jpg" />
+    <None Include="wwwroot\img\spotify.svg" />
+    <None Include="wwwroot\img\Tesla-1.png" />
+    <None Include="wwwroot\js\script.js" />
+  </ItemGroup>
+
+</Project>
